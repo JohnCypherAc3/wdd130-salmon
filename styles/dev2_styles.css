@@ -5,7 +5,8 @@
 body {
     margin: 0;
     font-family: "Almendra Display", Garamond, serif;
-    background-image: url("images/Background_img.png");
+    background-color: #250902;
+    background-image: url("BackgroundImage.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
