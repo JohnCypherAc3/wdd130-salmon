@@ -13,34 +13,44 @@ body {
     color: #ffffff;
 }
 
-/* Header */
 header {
     background-color: #800E13;
     padding: 20px;
-    text-align: center;
+    text-align: center; /* center everything */
+}
+
+header .header-logo {
+    margin-bottom: 15px; /* space between logo and title */
+}
+
+header .logo {
+    height: 100px;  /* adjust as needed */
+    width: auto;
 }
 
 header h1 {
     font-family: "Akronim", cursive;
     font-size: 2.5em;
-    margin: 0;
+    color: #ffffff;
+    margin: 0 0 15px 0; /* space below title for nav */
 }
 
 /* Navigation */
-nav {
-    margin-top: 10px;
+header nav {
+    display: flex;
+    justify-content: center; /* center the nav links */
+    gap: 15px;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: #ffffff;
-    margin: 0 15px;
     font-size: 1.2em;
     padding: 8px 12px;
     border-radius: 5px;
 }
 
-nav a:hover {
+header nav a:hover {
     background-color: #640D14;
 }
 
@@ -51,7 +61,7 @@ main {
     padding: 20px;
 }
 
-/* Section Styling (matches wireframe boxes) */
+/* Section Styling */
 section {
     background-color: #38040E;
     margin-bottom: 20px;
@@ -87,4 +97,16 @@ footer {
     padding: 15px;
     background-color: #800E13;
     margin-top: 20px;
+}
+
+/* Responsive: logo above title on small screens */
+@media (max-width: 600px) {
+    header .logo-title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    header .logo {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
