@@ -17,6 +17,7 @@
 body {
     background-image: url("../images/background.png");
     background-size: cover;
+    background-attachment: fixed;
     font-family: "Almendra Display", Garamond, Serif;
     color: var(--white);
 }
