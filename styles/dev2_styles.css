@@ -29,16 +29,16 @@ header .logo {
 }
 
 header h1 {
-    font-family: "Akronim", cursive;
+    font-family: "Akronim";
     font-size: 2.5em;
     color: #ffffff;
-    margin: 0 0 15px 0; /* space below title for nav */
+    margin: 0 0 15px 0; 
 }
 
 /* Navigation */
 header nav {
     display: flex;
-    justify-content: center; /* center the nav links */
+    justify-content: center; 
     gap: 15px;
 }
 
@@ -97,16 +97,4 @@ footer {
     padding: 15px;
     background-color: #800E13;
     margin-top: 20px;
-}
-
-/* Responsive: logo above title on small screens */
-@media (max-width: 600px) {
-    header .logo-title {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-    header .logo {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
 }
