@@ -1,0 +1,100 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Almendra+Display&display=swap');
+
+/* General Reset */
+body {
+    margin: 0;
+    font-family: "Almendra Display", Garamond, serif;
+    background-color: #250902;
+    background-image: url("../images/BackgroundImage.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+header {
+    background-color: #800E13;
+    padding: 20px;
+    text-align: center; /* center everything */
+}
+
+header .header-logo {
+    margin-bottom: 15px; /* space between logo and title */
+}
+
+header .logo {
+    height: 100px;  /* adjust as needed */
+    width: auto;
+}
+
+header h1 {
+    font-family: "Akronim";
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 0 0 15px 0; 
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+header nav a:hover {
+    background-color: #640D14;
+}
+
+/* Main Content */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Section Styling */
+section {
+    background-color: #38040E;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 5px solid #800E13;
+    border-radius: 8px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #ff4d4d;
+    margin-top: 0;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #800E13;
+    margin-top: 20px;
+}
